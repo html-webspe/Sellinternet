@@ -1,0 +1,121 @@
+.result-area {
+   font-size: 30px;
+   line-height: 35px;
+   font-weight: 300;
+
+   span {
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+   }
+
+   &__grup {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+
+.result-area-cnt {
+   text-align: center;
+   font-size: 25px;
+
+   margin-bottom: 37px;
+
+   @media (min-width:$md2+px) {
+      margin-bottom: 51px;
+   }
+
+}
+
+.start-button {
+   svg {
+      width: 121px;
+      height: 23px;
+
+      @media (min-width:$md2+px) {
+         width: 151px;
+         height: 28px;
+      }
+   }
+}
+
+.main {
+   max-width: 339px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 124px;
+
+   @media (min-width:1500px) {
+      margin-bottom: 224px;
+   }
+}
+
+.start-button {
+   position: relative;
+   display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 199px;
+   height: 199px;
+   border-radius: 50%;
+   margin-bottom: 37px;
+   @include anim(0.7s, 0s);
+
+   background: linear-gradient(308.04deg, #061F56 -74.8%, #0F55EB 96.09%);
+   box-shadow: 21.2997px 21.2997px 36.5138px rgba(5, 46, 135, 0.82), -21.2997px -21.2997px 36.5138px #2564EB;
+
+
+   .decor-1 {
+      width: 2.3px;
+      height: 30px;
+      margin-left: 14px;
+
+      background: linear-gradient(180deg, #0C348B 0%, rgba(12, 52, 139, 0) 100%);
+      transform: rotate(-90deg);
+   }
+
+   .decor-2 {
+      width: 2.3px;
+      height: 30px;
+      margin-right: 14px;
+
+      background: linear-gradient(180deg, #0C348B 0%, rgba(12, 52, 139, 0) 100%);
+      transform: rotate(90deg);
+   }
+
+   &:after {
+      content: '';
+      position: absolute;
+      width: 2.3px;
+      height: 30.7px;
+      left: 50%;
+      top: 0;
+
+      background: linear-gradient(180deg, #0C348B 0%, rgba(12, 52, 139, 0) 100%);
+
+   }
+
+   &:before {
+      content: '';
+      position: absolute;
+      width: 2.3px;
+      height: 30.7px;
+      left: 50%;
+      bottom: 0;
+
+      background: linear-gradient(180deg, rgba(12, 52, 139, 0) 0%, #0C348B 100%);
+
+   }
+
+   @media (min-width:$md2+px) {
+      margin-bottom: 55px;
+      width: 251px;
+      height: 251px;
+   }
+}
+
+.start-button {
+   &:hover {
+      transform: scale(1.1);
+   }
+}
