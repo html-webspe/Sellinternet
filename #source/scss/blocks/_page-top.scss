@@ -114,3 +114,14 @@
       }
    }
 }
+
+
+.page-two {
+   .page-top {
+      margin-bottom: 66px;
+
+      @media (min-width:$md2+px) {
+         margin-bottom: 86px;
+      }
+   }
+}
