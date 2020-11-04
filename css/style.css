@@ -127,7 +127,7 @@ body {
   position: relative; }
   @media (min-width: 576.98px) {
     .page {
-      padding: 63px 83px 78px 83px; } }
+      padding: 63px 83px 30px 83px; } }
 
 /*.ibg {
 	background-position: center;
@@ -224,71 +224,6 @@ body.ie .ibg img {
   right: 0;
   z-index: 1111;
   background: #000; }
-
-.form__btn {
-  padding: 0;
-  border: none;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer; }
-
-.form-row {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  font-size: 0; }
-
-.form__column {
-  padding: 0px 15px; }
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; }
-
-.input {
-  border-radius: 0 !important;
-  width: 100%;
-  display: block;
-  padding: 0px 20px; }
-
-textarea.input {
-  resize: none;
-  padding: 0px 0px; }
-
-.btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 0px 0px; }
-  .btn.fw {
-    width: 100%; }
-
-.slick-slider {
-  position: relative; }
-  .slick-slider .slick-track,
-  .slick-slider .slick-list {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
-  .slick-slider .slick-list {
-    position: relative;
-    overflow: hidden;
-    width: 100%; }
-  .slick-slider .slick-track {
-    position: relative;
-    width: 100%; }
-  .slick-slider .slick-slide {
-    overflow: hidden;
-    float: left;
-    position: relative; }
 
 .page-top {
   -webkit-box-align: center;
