@@ -600,10 +600,7 @@ body.ie .ibg img {
   margin-bottom: 32px; }
   @media (max-width: 767.98px) {
     .page-three .main-result {
-      max-width: 315px; } }
-  @media (max-width: 370px) {
-    .page-three .main-result {
-      max-width: 260px; } }
+      max-width: 100%; } }
 
 @media (min-width: 767.98px) {
   .page-three .result-area__grup {
