@@ -116,12 +116,13 @@
 }
 
 
-.page-two {
+.page-two,
+.page-three {
    .page-top {
       margin-bottom: 66px;
 
       @media (min-width:$md2+px) {
-         margin-bottom: 86px;
+         margin-bottom: 91px;
       }
    }
 }

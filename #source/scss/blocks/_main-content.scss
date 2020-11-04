@@ -3,6 +3,10 @@
    line-height: 32px;
    font-weight: 300;
 
+   @media (max-width:370px) {
+      font-size: 25px;
+   }
+
    span {
       font-size: 15px;
       font-weight: bold;
@@ -141,6 +145,18 @@
    }
 }
 
+.page-three {
+   .main {
+      max-width: 370px;
+      margin-bottom: 87px;
+      margin-bottom: 131px;
+
+      @media (min-width:1500px) {
+         margin-bottom: 224px;
+      }
+   }
+}
+
 .main-progres {
    position: relative;
    flex: 0 0 51px;
@@ -255,4 +271,46 @@
 .nicescroll-rails.nicescroll-rails-vr {
    right: 15px !important;
    top: 16px !important;
+}
+
+.page-three {
+   .main-result {
+      max-height: 177px;
+      margin-bottom: 32px;
+
+      @media (max-width:$md3+px) {
+         max-width: 315px;
+      }
+
+      @media (max-width:370px) {
+         max-width: 260px;
+      }
+   }
+
+   .result-area__grup {
+      @media (min-width:$md3+px) {
+         padding: 0 16px;
+      }
+   }
+
+   .result-area {
+      @media (max-width:$md4+px) {
+         font-weight: 100;
+      }
+   }
+
+   .mail-title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 36px;
+      color: #C3D5FD;
+      margin-bottom: 14px;
+      text-align: center;
+
+      @media (min-width:$md3+px) {
+         font-size: 50px;
+         line-height: 60px;
+         margin-bottom: 32px;
+      }
+   }
 }
