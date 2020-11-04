@@ -54,7 +54,7 @@
       }
 
       @media (min-width:$md3+px) {
-         margin-right: 26px;
+         margin-right: 21px;
       }
 
       &:before {
@@ -62,6 +62,7 @@
          width: 37px;
          height: 37px;
          margin-right: 37px;
+         margin-left: -2px;
          border-radius: 50%;
 
          font-weight: bold;
@@ -70,7 +71,7 @@
 
          background: #0A389C;
          box-shadow: -4.60245px -4.60245px 7.88991px #2765EB, 4.60245px 4.60245px 7.88991px #123D9A;
-
+         color: #C3D5FD;
          z-index: 1;
       }
    }

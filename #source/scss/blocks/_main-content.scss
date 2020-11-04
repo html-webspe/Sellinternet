@@ -1,6 +1,6 @@
 .result-area {
    font-size: 30px;
-   line-height: 35px;
+   line-height: 32px;
    font-weight: 300;
 
    span {
@@ -12,6 +12,7 @@
    &__grup {
       display: flex;
       justify-content: space-between;
+      text-align: left;
    }
 }
 
@@ -22,7 +23,7 @@
    margin-bottom: 37px;
 
    @media (min-width:$md2+px) {
-      margin-bottom: 51px;
+      margin-bottom: 43px;
    }
 
 }
@@ -31,6 +32,7 @@
    svg {
       width: 121px;
       height: 23px;
+      margin-top: 10px;
 
       @media (min-width:$md2+px) {
          width: 151px;
@@ -43,7 +45,7 @@
    max-width: 339px;
    margin: 0 auto;
    text-align: center;
-   margin-bottom: 124px;
+   margin-bottom: 131px;
 
    @media (min-width:1500px) {
       margin-bottom: 224px;
