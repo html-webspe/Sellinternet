@@ -502,6 +502,9 @@ body.ie .ibg img {
   -webkit-box-shadow: 26.8654px 26.8654px 46.055px rgba(5, 46, 135, 0.82), -26.8654px -26.8654px 46.055px #2564EB;
   box-shadow: 26.8654px 26.8654px 46.055px rgba(5, 46, 135, 0.82), -26.8654px -26.8654px 46.055px #2564EB;
   border-radius: 10px; }
+  @media (max-width: 414px) {
+    .main-progres {
+      height: 402px; } }
   @media (max-width: 767.98px) {
     .main-progres {
       margin-right: 65px; } }
@@ -562,6 +565,9 @@ body.ie .ibg img {
   border-image-slice: 1;
   max-height: 492px;
   overflow: hidden; }
+  @media (max-width: 414px) {
+    .main-result {
+      max-height: 402px; } }
   .main-result:after {
     content: '';
     position: absolute;

@@ -164,8 +164,14 @@
    height: 493px;
    background-color: #777;
 
-   background: linear-gradient(333.76deg, #0C43BB -48.69%, #6190F5 189.23%), #C4C4C4;
-   box-shadow: 26.8654px 26.8654px 46.055px rgba(5, 46, 135, 0.82), -26.8654px -26.8654px 46.055px #2564EB;
+   @media (max-width:414px) {
+      height: 402px;
+   }
+
+   background: linear-gradient(333.76deg, #0C43BB -48.69%, #6190F5 189.23%),
+   #C4C4C4;
+   box-shadow: 26.8654px 26.8654px 46.055px rgba(5, 46, 135, 0.82),
+   -26.8654px -26.8654px 46.055px #2564EB;
    border-radius: 10px;
 
    @media (max-width:$md3+px) {
@@ -233,6 +239,10 @@
    border-image-slice: 1;
    max-height: 492px;
    overflow: hidden;
+
+   @media (max-width:414px) {
+      max-height: 402px;
+   }
 
    &:after {
       content: '';
